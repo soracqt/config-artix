@@ -1,0 +1,49 @@
+command -v exa &>/dev/null && alias ls='exa -F' \
+        alias la='exa -Fa' \
+        alias ll='exa -Fal' \
+        alias tree='exa -T' \
+alias cp='cp -v'
+alias mv='mv -v'
+command -v rip &>/dev/null && alias rm='rip'
+alias mkdir='mkdir -v'
+alias k='tree'
+command -v nvim &>/dev/null && alias vi='nvim'
+alias sudo='sudo '
+alias c='clear'
+alias gksu='pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY WAYLAND_DISPLAY=$WAYLAND_DISPLAY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR'
+alias yy='yay'
+command -v bat &>/dev/null && alias cat='bat'
+alias diff='diff --color=auto'
+alias yayskip='yay -S --mflags "--skipchecksums --skippgpcheck"'
+alias wine='WINEARCH=win32 WINEPREFIX=$HOME/.wine wine'
+alias wine64='WINEARCH=win64 WINEPREFIX=$HOME/.wine64 wine'
+command -v youtube-dl aria2c &>/dev/null && alias youtube-dl='youtube-dl --external-downloader aria2c --external-downloader-args "-c -j 16 -x 16 -s 16 -k 10M"' \
+        alias ytdl='youtube-dl' \
+alias ip='ip --color=auto'
+alias l='ls'
+alias dc='cd'
+alias ln='ln -nv'
+command -v git &>/dev/null && alias gs='git status ' \
+        alias gA='git add -A ' \
+        alias ga='git add' \
+        alias gb='git branch ' \
+        alias gc='git commit' \
+        alias gd='git diff' \
+        alias gco='git checkout ' \
+        alias gl='git pull' \
+        alias gp='git push' \
+        alias gi='git' \
+        alias g='git' \
+alias yay='paru'
+function yta() {
+    mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
+}
+alias :q='exit'
+alias chmod='chmod -c'
+alias chown='chown -c'
+alias viman='MANPAGER="vim -M +MANPAGER -c \"set nolist\" -" command man'
+alias m=viman
+alias zr='z $(ghq list -p | fzf)'
+alias du='dua'
+alias lg='lazygit'
+alias chattr='chattr -V'

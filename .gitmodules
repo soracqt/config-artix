@@ -1,0 +1,6 @@
+[submodule "dotfiles/.tmux/themes/nord-tmux"]
+	path = dotfiles/.tmux/themes/nord-tmux
+	url = https://github.com/arcticicestudio/nord-tmux
+[submodule "dotfiles/.local/share/dein/repos/github.com/Shougo/dein.vim"]
+	path = dotfiles/.local/share/dein/repos/github.com/Shougo/dein.vim
+	url = https://github.com/Shougo/dein.vim
