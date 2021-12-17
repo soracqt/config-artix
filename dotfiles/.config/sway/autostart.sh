@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+runsvdir ~/.runit/runsvdir &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 mako &
 gammastep &

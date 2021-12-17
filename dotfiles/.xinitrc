@@ -52,4 +52,4 @@ xset r rate 280 40
 [ -f ~/.xprofile ] && source ~/.xprofile
 runsvdir ~/.runit/runsvdir &
 
-dbus-launch i3
+dbus-run-session i3
