@@ -13,6 +13,7 @@ asp
 auto-cpufreq
 auto-cpufreq-runit
 avahi-runit
+backlight-runit
 base
 bashtop
 bat
@@ -103,7 +104,6 @@ intellij-idea-community-edition
 intel-media-driver
 intel-ucode
 iotop
-ipset
 iptables-nft
 jquake
 kakoune
