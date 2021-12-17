@@ -1,0 +1,4 @@
+#!/bin/sh
+[ -r conf ] && . ./conf
+sv start dbus >/dev/null || exit 1
+exec firewalld --nofork --nopid $OPTS 2>&1 > /dev/tty6
