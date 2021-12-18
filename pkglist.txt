@@ -260,6 +260,7 @@ wireshark-qt
 wl-clipboard
 wofi
 wtype
+x86_energy_perf_policy
 xarchiver
 xclip
 xdg-desktop-portal-wlr
