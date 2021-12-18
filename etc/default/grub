@@ -4,7 +4,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Artix"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
-GRUB_CMDLINE_LINUX="cryptdevice=/dev/nvme0n1p2:root rw root=/dev/mapper/root initcall_blacklist=cnl_pinctrl_driver_init lsm=lockdown,yama,apparmor,bpf nowatchdog pci=noaer intel_idle.max_cstate=0 intel_pstate=disable"
+GRUB_CMDLINE_LINUX="cryptdevice=/dev/nvme0n1p8:root rw root=/dev/mapper/root initcall_blacklist=cnl_pinctrl_driver_init nowatchdog pci=noaer"
 
 # Preload both GPT and MBR modules so that they are not missed
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
