@@ -276,6 +276,7 @@ xorg-xhost
 xorg-xinit
 xorg-xwayland
 xss-lock
+yarn
 yt-dlp
 yt-dlp-drop-in
 ytfzf
