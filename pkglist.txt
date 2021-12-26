@@ -199,6 +199,7 @@ scrcpy
 screenfetch
 scrot
 seahorse
+shellcheck
 signal-desktop
 sl
 smartmontools
