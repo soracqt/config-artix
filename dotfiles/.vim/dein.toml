@@ -1,0 +1,53 @@
+# 置換プレビュー
+[[plugins]]
+repo = 'markonm/traces.vim'
+
+[[plugins]]
+repo = 'vim-skk/eskk.vim'
+hook_add = '''
+let g:eskk#large_dictionary = {'path': "/usr/share/skk/SKK-JISYO.L", 'sorted': 1, 'encoding': 'euc-jp',}
+let g:eskk#enable_completion = 1
+'''
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+merged = '0'
+
+[[plugins]]
+repo = 'arcticicestudio/nord-vim'
+hook_add = '''
+colorscheme nord
+'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+set noshowmode
+let g:lightline = {
+    \ 'colorscheme': 'nord',
+    \ }
+'''
+
+[[plugins]]
+repo = 'skanehira/translate.vim'
+
+[[plugins]]
+repo = 'lambdalisue/suda.vim'
+
+[[plugins]]
+repo = 'kana/vim-altercmd'
+hook_add = '''
+call altercmd#load()
+AlterCommand suwr SudaWrite
+AlterCommand sure SudaRead
+'''
+
+[[plugins]]
+repo = 'vim-jp/vimdoc-ja'
+hook_add = '''
+set helplang=ja
+'''
+
+[[plugins]]
+repo = 'machakann/vim-highlightedyank'
