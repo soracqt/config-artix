@@ -114,6 +114,7 @@ kvantum-qt5
 lazygit
 lib32-alsa-lib
 lib32-alsa-plugins
+lib32-artix-archlinux-support
 libreoffice-still
 libva-utils
 libvirt-runit
