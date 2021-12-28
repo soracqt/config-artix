@@ -1,10 +1,8 @@
 adapta-gtk-theme
-alacarte
 alacritty
 alsa-utils
 alsa-utils-runit
 android-tools
-apparmor
 arandr
 aria2
 arp-scan
@@ -146,7 +144,6 @@ neovim-qt
 net-tools
 networkmanager
 networkmanager-runit
-nkf
 nmap
 nodejs
 noto-fonts
@@ -283,7 +280,6 @@ yt-dlp
 yt-dlp-drop-in
 ytfzf
 zip
-zoom
 zoxide
 zsh
 zsh-autosuggestions
