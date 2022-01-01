@@ -4,7 +4,6 @@ imwheel &
 gammastep -m randr &
 /usr/bin/Thunar --daemon &
 /usr/bin/firewall-applet &
-/usr/lib/geoclue-2.0/demos/agent &
 /usr/bin/fcitx5 &
 /usr/lib/kdeconnectd &
 keepassxc --localconfig $HOME/.config/keepassxc/keepassxc.ini &
