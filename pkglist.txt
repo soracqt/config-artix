@@ -118,8 +118,8 @@ libva-utils
 libvirt-runit
 libvncserver
 light
+linux
 linux-firmware
-linux-lts
 lolcat
 longcat
 lsof
@@ -150,7 +150,6 @@ noto-fonts
 noto-fonts-cjk
 nss-mdns
 ntp
-ntp-runit
 nvme-cli
 nyancat
 openbsd-netcat
@@ -200,6 +199,7 @@ seahorse
 shellcheck
 signal-desktop
 sl
+slack-desktop
 smartmontools
 socat
 soundkonverter
@@ -277,7 +277,6 @@ xorg-xwayland
 xss-lock
 yarn
 yt-dlp
-yt-dlp-drop-in
 ytfzf
 zip
 zoxide
