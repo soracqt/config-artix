@@ -103,6 +103,8 @@ intel-media-driver
 intel-ucode
 iotop
 iptables-nft
+iwd
+iwd-runit
 jquake
 kakoune
 kdeconnect
@@ -142,8 +144,6 @@ neofetch
 neovim
 neovim-qt
 net-tools
-networkmanager
-networkmanager-runit
 nmap
 nodejs
 noto-fonts
@@ -222,7 +222,6 @@ thunderbird
 tig
 tldr
 tlp
-tlp-rdw
 tlp-runit
 tmux
 torbrowser-launcher
