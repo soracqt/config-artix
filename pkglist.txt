@@ -64,7 +64,6 @@ fish
 flameshot
 flatpak
 fontforge
-fontpreview-ueberzug-git
 fonts-seto
 freerdp
 fzf
@@ -82,7 +81,7 @@ gnome-keyring
 gnome-system-monitor
 go
 gparted
-grimshot
+grim
 grub
 gtk-engine-murrine
 guvcview
@@ -236,7 +235,6 @@ ttf-sarasa-gothic
 ttf-twemoji
 tutanota-desktop-bin
 typora
-ueberzug
 unarchiver
 unzip
 upd72020x-fw
