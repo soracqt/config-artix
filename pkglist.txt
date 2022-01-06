@@ -175,6 +175,7 @@ profile-sync-daemon
 psensor
 pv
 pwgen
+python
 python-pip
 python-pyqt5
 qemu
