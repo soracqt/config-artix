@@ -149,6 +149,7 @@ noto-fonts
 noto-fonts-cjk
 nss-mdns
 ntp
+ntp-runit
 nvme-cli
 nyancat
 openbsd-netcat
@@ -250,6 +251,7 @@ vulkan-intel
 vulkan-tools
 w3m
 wget
+whois
 wimlib
 wine
 winetricks
