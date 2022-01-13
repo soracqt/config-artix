@@ -236,7 +236,6 @@ ttf-roboto-mono
 ttf-sarasa-gothic
 ttf-twemoji
 tutanota-desktop-bin
-typora
 unarchiver
 unzip
 upd72020x-fw

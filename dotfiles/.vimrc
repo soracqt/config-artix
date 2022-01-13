@@ -4,7 +4,7 @@
 "              newbie, basing your first .vimrc on this file is a good choice.
 "              If you're a more advanced user, building your own .vimrc based
 "              on this file is still a good idea.
-" https://vimblog.hatenablog.com/entry/vimrc_set_options
+
 "------------------------------------------------------------
 " Features {{{1
 "
@@ -45,7 +45,6 @@ endif
 " for keeping undo history after closing Vim entirely. Vim will complain if you
 " try to quit without saving, and swap files will keep you safe if your computer
 " crashes.
-" https://qiita.com/qtamaki/items/4da4ead3f2f9a525591a#%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%AFls-set-hidden-b-tab
 set hidden
 
 " Note that not everyone likes working this way (with the hidden option).
@@ -55,16 +54,13 @@ set hidden
 " set autowriteall
 
 " Better command-line completion
-" https://knowledge.sakura.ad.jp/23121/
 set wildmenu
 
 " Show partial commands in the last line of the screen
-" https://qiita.com/kojionilk/items/67379e68cf54d811081a#set-showcmd-%E5%85%A5%E5%8A%9B%E4%B8%AD%E3%81%AE%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B
 set showcmd
 
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
 " mapping of <C-L> below)
-" https://qiita.com/kojionilk/items/67379e68cf54d811081a#set-hlsearch-%E6%A4%9C%E7%B4%A2%E8%AA%9E%E5%8F%A5%E3%81%AE%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88
 set hlsearch
 
 " Modelines have historically been a source of security vulnerabilities. As
@@ -82,48 +78,38 @@ set hlsearch
 " use is very much a personal preference, but they are harmless.
 
 " Use case insensitive search, except when using capital letters
-" https://qiita.com/kojionilk/items/67379e68cf54d811081a#set-ignorecase-%E6%A4%9C%E7%B4%A2%E6%99%82%E3%81%AB%E8%8B%B1%E5%A4%A7%E5%B0%8F%E6%96%87%E5%AD%97%E3%81%AE%E5%8C%BA%E5%88%A5%E3%82%92%E7%84%A1%E8%A6%96%E3%81%99%E3%82%8B
 set ignorecase
-" https://qiita.com/kojionilk/items/67379e68cf54d811081a#set-smartcase-%E6%A4%9C%E7%B4%A2%E6%99%82%E3%81%AB%E5%85%A8%E3%81%A6%E8%8B%B1%E5%B0%8F%E6%96%87%E5%AD%97%E3%81%A7%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%81%BF%E5%8C%BA%E5%88%A5%E3%82%92%E7%84%A1%E8%A6%96%E3%81%99%E3%82%8B
 set smartcase
 
 " Allow backspacing over autoindent, line breaks and start of insert action
-" https://qiita.com/kojionilk/items/67379e68cf54d811081a#set-backspace-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E6%8A%BC%E4%B8%8B%E6%99%82%E3%81%AE%E6%8C%99%E5%8B%95%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B
 set backspace=indent,eol,start
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
-" https://maku77.github.io/vim/settings/auto-indent.html
 set autoindent
 
 " Stop certain movements from always going to the first character of a line.
 " While this behaviour deviates from that of Vi, it does what most users
 " coming from other editors would expect.
-" https://qiita.com/rita_cano_bika/items/2ae9c8304f8f12b1b443
 set nostartofline
 
 " Display the cursor position on the last line of the screen or in the status
 " line of a window
-" https://qiita.com/kojionilk/items/67379e68cf54d811081a#set-ruler-%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%AB%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A1%A8%E7%A4%BA%E3%82%92%E8%A1%8C%E3%81%86
 set ruler
 
 " Always display the status line, even if only one window is displayed
-" https://knowledge.sakura.ad.jp/23121/
 set laststatus=2
 
 " Instead of failing a command because of unsaved changes, instead raise a
 " dialogue asking if you wish to save changed files.
-" https://vimblog.hatenablog.com/entry/vimrc_set_file_handling_options
 set confirm
 
 " Use visual bell instead of beeping when doing something wrong
-" https://vimblog.hatenablog.com/entry/vimrc_set_bell_options
 set visualbell
 
 " And reset the terminal code for the visual bell. If visualbell is set, and
 " this line is also included, vim will neither flash nor beep. If visualbell
 " is unset, this does nothing.
-" https://vimblog.hatenablog.com/entry/vimrc_set_bell_options
 set t_vb=
 
 " Enable use of the mouse for all modes
@@ -133,11 +119,9 @@ endif
 
 " Set the command window height to 2 lines, to avoid many cases of having to
 " "press <Enter> to continue"
-" https://qiita.com/tamura0425/items/5d268c34a242bd807867#vimrc%E3%81%AE%E4%BD%9C%E6%88%90
-set cmdheight=1
+set cmdheight=2
 
 " Display line numbers on the left
-" https://qiita.com/tamura0425/items/5d268c34a242bd807867#vimrc%E3%81%AE%E4%BD%9C%E6%88%90
 set number
 
 " Quickly time out on keycodes, but never time out on mappings
@@ -154,11 +138,8 @@ set pastetoggle=<F11>
 
 " Indentation settings for using 4 spaces instead of tabs.
 " Do not change 'tabstop' from its default value of 8 with this setup.
-" https://www.softel.co.jp/blogs/tech/archives/4188
 set shiftwidth=4
-" https://yu8mada.com/2018/08/26/i-ll-explain-vim-s-5-tab-and-space-related-somewhat-complicated-options-as-simply-as-possible/#content-1-2
 set softtabstop=4
-" https://yu8mada.com/2018/08/26/i-ll-explain-vim-s-5-tab-and-space-related-somewhat-complicated-options-as-simply-as-possible/#content-1-4
 set expandtab
 
 " Indentation settings for using hard tabs for indent. Display tabs as
@@ -178,11 +159,11 @@ map Y y$
 
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
-nnoremap <C-L> :nohlsearch<CR><C-L>
+nnoremap <C-L> :nohl<CR><C-L>
 
 "------------------------------------------------------------
+
 " show cursor
-" https://qiita.com/koara-local/items/57b5f2847b3506a6485b
 set cursorline
 
 " https://vimblog.hatenablog.com/entry/vimrc_set_display_options
