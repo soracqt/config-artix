@@ -16,6 +16,7 @@ base
 bashtop
 bat
 bind
+blueman
 bluez
 bluez-runit
 bluez-utils
