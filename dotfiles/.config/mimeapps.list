@@ -8,3 +8,4 @@ x-scheme-handler/unknown=firefox-developer-edition-private.desktop
 [Added Associations]
 image/png=feh.desktop;
 application/x-zip-compressed=xarchiver.desktop;
+image/jpeg=feh.desktop;

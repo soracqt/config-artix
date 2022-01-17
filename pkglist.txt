@@ -165,6 +165,7 @@ paruz
 pavucontrol-qt
 peek
 picom
+pigz
 pipewire
 pipewire-alsa
 pipewire-pulse
