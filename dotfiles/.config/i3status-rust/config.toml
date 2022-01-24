@@ -15,7 +15,7 @@ block = "memory"
 display_type = "memory"
 format_mem = "{mem_total_used_percents}"
 format_swap = "{swap_used_percents}"
-on_click = "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY WAYLAND_DISPLAY=$WAYLAND_DISPLAY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR sh -c 'echo 1 > /proc/sys/vm/drop_caches'"
+on_click = "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh -c 'echo 1 > /proc/sys/vm/drop_caches'"
 
 [[block]]
 block = "sound"

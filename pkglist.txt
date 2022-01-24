@@ -2,8 +2,10 @@ adapta-gtk-theme
 alacritty
 alsa-utils
 alsa-utils-runit
+android-apktool
 android-tools
 arandr
+arch-audit
 aria2
 arp-scan
 artix-archlinux-support
