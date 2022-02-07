@@ -41,7 +41,6 @@ dua-cli
 edk2-ovmf
 edk2-shell
 efibootmgr
-electron
 elogind-runit
 eog
 ethtool
@@ -58,6 +57,7 @@ fcitx5-qt
 fcitx5-skk
 fd
 feh
+ffmpeg-compat-58
 figlet
 firefox-developer-edition
 firefox-extension-arch-search
@@ -81,6 +81,7 @@ gitui
 gnome-calculator
 gnome-clocks
 gnome-keyring
+gnome-shell-extension-pop-shell-bin
 gnome-system-monitor
 go
 gparted
@@ -122,8 +123,8 @@ libva-utils
 libvirt-runit
 libvncserver
 light
-linux
 linux-firmware
+linux-lts
 lolcat
 longcat
 lsof

@@ -1,2 +1,0 @@
-#!/bin/sh
-exec x86_energy_perf_policy --hwp-enable balance-power
