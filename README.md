@@ -10,9 +10,13 @@ git clone --recursive https://github.com/soracqt/config-artix
 comm -23 <(pacman -Qqe | sort) <( pacman -Qqg base-devel base | sort -u) > pkglist.txt
 ```
 
+# add fstab
+
 ```bash
 cat fstab|sudo tee -a /etc/fstab
 ```
+
+# set /etc/resolv.conf to immutable (NetworkManager)
 
 ```bash
 sudo chattr +i /etc/resolv.conf
