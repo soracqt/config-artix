@@ -28,7 +28,7 @@ crda
 cryptsetup
 cups
 cups-runit
-discord_arch_electron
+#discord_arch_electron
 dnsmasq
 docker
 docker-compose
@@ -58,7 +58,7 @@ feh
 ffmpeg-compat-58
 figlet
 firefox-developer-edition
-firefox-extension-arch-search
+#firefox-extension-arch-search
 firewalld
 fish
 flameshot
@@ -203,7 +203,6 @@ smartmontools
 socat
 soundkonverter
 speedtest-cli
-spotify
 strace
 s-tui
 subversion
@@ -230,7 +229,7 @@ trash-cli
 ttf-cica
 ttf-font-awesome
 ttf-ibm-plex
-ttf-plemol-jp
+#ttf-plemol-jp
 ttf-roboto-mono
 ttf-sarasa-gothic
 ttf-twemoji
