@@ -4,7 +4,7 @@
 OPTS=''
 
 # Setting this to 1 enables logging, any other value - disables.
-LOGGING_ENABLE=1
+LOGGING_ENABLE=0
 # Set the pipewire log level.
 # See: https://docs.pipewire.org/page_daemon.html#sec_logging
 LOG_LEVEL=1
