@@ -1,0 +1,13 @@
+alsa
+auto-cpufreq
+avahi-daemon
+backlight
+bluetoothd
+cupsd
+firewalld
+libvirtd
+ntpd
+tlp
+virtlockd
+virtlogd
+
