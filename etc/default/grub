@@ -4,7 +4,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Artix"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
-GRUB_CMDLINE_LINUX="cryptdevice=/dev/nvme0n1p2:root rw root=/dev/mapper/root initcall_blacklist=cnl_pinctrl_driver_init nowatchdog pci=noaer"
+GRUB_CMDLINE_LINUX="cryptdevice=/dev/nvme0n1p2:root initcall_blacklist=cnl_pinctrl_driver_init"
 
 # Preload both GPT and MBR modules so that they are not missed
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
@@ -55,3 +55,9 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment to disable submenus in boot menu
 #GRUB_DISABLE_SUBMENU=y
+
+# Probing for other operating systems is disabled for security reasons. Read
+# documentation on GRUB_DISABLE_OS_PROBER, if still want to enable this
+# functionality install os-prober and uncomment to detect and include other
+# operating systems.
+#GRUB_DISABLE_OS_PROBER=false

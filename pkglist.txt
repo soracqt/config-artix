@@ -34,7 +34,6 @@ docker
 docker-compose
 docker-runit
 dog
-dosfstools
 downgrade
 dua-cli
 edk2-ovmf
@@ -79,7 +78,6 @@ gitui
 gnome-calculator
 gnome-clocks
 gnome-keyring
-gnome-shell-extension-pop-shell-bin
 gnome-system-monitor
 go
 gparted
@@ -87,7 +85,6 @@ grim
 grub
 gtk-engine-murrine
 guvcview
-gvfs
 gvfs-mtp
 gvim
 htop
@@ -104,8 +101,6 @@ intel-media-driver
 intel-ucode
 iotop
 iptables-nft
-iwd
-iwd-runit
 jquake
 kakoune
 kdeconnect
@@ -145,9 +140,10 @@ neofetch
 neovim
 neovim-qt
 net-tools
+networkmanager
+networkmanager-runit
 nmap
 nodejs
-noto-fonts
 noto-fonts-cjk
 nss-mdns
 ntp
@@ -167,7 +163,6 @@ pavucontrol-qt
 peek
 picom
 pigz
-pipewire
 pipewire-alsa
 pipewire-pulse
 playerctl
@@ -226,6 +221,7 @@ thunderbird
 tig
 tldr
 tlp
+tlp-rdw
 tlp-runit
 tmux
 torbrowser-launcher
@@ -261,7 +257,6 @@ wireshark-qt
 wl-clipboard
 wofi
 wtype
-x86_energy_perf_policy
 xarchiver
 xclip
 xdg-desktop-portal-wlr
