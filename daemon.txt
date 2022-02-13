@@ -7,7 +7,6 @@ cupsd
 firewalld
 libvirtd
 ntpd
-tlp
 virtlockd
 virtlogd
 
