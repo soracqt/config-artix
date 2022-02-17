@@ -60,3 +60,9 @@ lsm=lockdown,yama,apparmor,bpf
 ```bash
 echo "tmpfs   $HOME/.cache      tmpfs   noatime,nodev,nosuid,size=2G  0       0"|sudo tee -a /etc/fstab
 ```
+
+# make dir for pkgbuilds
+
+```bash
+mkdir ~/.local/share/pkgbuilds
+```
