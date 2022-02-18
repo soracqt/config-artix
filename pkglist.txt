@@ -55,7 +55,6 @@ fcitx5-qt
 fcitx5-skk
 fd
 feh
-ffmpeg-compat-58
 figlet
 firefox-developer-edition
 #firefox-extension-arch-search
