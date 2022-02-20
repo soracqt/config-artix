@@ -152,6 +152,7 @@ nyancat
 openbsd-netcat
 openssh-runit
 p7zip
+pacman-cleanup-hook
 pacman-contrib
 pacutils
 pandoc-bin
