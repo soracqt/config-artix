@@ -1,9 +1,9 @@
 [Default Applications]
-text/html=firefox-developer-edition-private.desktop
-x-scheme-handler/http=firefox-developer-edition-private.desktop
-x-scheme-handler/https=firefox-developer-edition-private.desktop
-x-scheme-handler/about=firefox-developer-edition-private.desktop
-x-scheme-handler/unknown=firefox-developer-edition-private.desktop
+text/html=firefox-private.desktop
+x-scheme-handler/http=firefox-private.desktop
+x-scheme-handler/https=firefox-private.desktop
+x-scheme-handler/about=firefox-private.desktop
+x-scheme-handler/unknown=firefox-private.desktop
 
 [Added Associations]
 image/png=feh.desktop;

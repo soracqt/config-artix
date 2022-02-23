@@ -56,7 +56,7 @@ fcitx5-skk
 fd
 feh
 figlet
-firefox-developer-edition
+firefox
 #firefox-extension-arch-search
 firewalld
 fish
