@@ -1,4 +1,3 @@
-adapta-gtk-theme
 alacritty
 alsa-utils
 alsa-utils-runit
@@ -6,6 +5,7 @@ android-apktool
 android-tools
 arandr
 arch-audit
+archiso
 aria2
 arp-scan
 artix-archlinux-support
@@ -143,6 +143,7 @@ networkmanager
 networkmanager-runit
 nmap
 nodejs
+nordic-darker-theme
 noto-fonts-cjk
 nss-mdns
 ntp
@@ -157,6 +158,8 @@ pacman-contrib
 pacutils
 pandoc-bin
 papirus-icon-theme
+papirus-linux-universe
+papirus-nord
 paru-bin
 paruz
 pavucontrol-qt
