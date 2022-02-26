@@ -251,6 +251,7 @@ vlc
 vulkan-intel
 vulkan-tools
 w3m
+wezterm
 wget
 whois
 wimlib
