@@ -28,6 +28,7 @@ crda
 cryptsetup
 cups
 cups-runit
+dex2jar
 #discord_arch_electron
 dnsmasq
 docker
@@ -100,6 +101,7 @@ intel-media-driver
 intel-ucode
 iotop
 iptables-nft
+jd-gui-bin
 jquake
 kakoune
 kdeconnect
