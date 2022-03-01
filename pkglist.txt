@@ -58,7 +58,7 @@ fd
 feh
 figlet
 firefox
-#firefox-extension-arch-search
+firefox-extension-arch-search
 firewalld
 fish
 flameshot
