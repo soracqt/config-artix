@@ -4,6 +4,7 @@
 git clone --recursive https://github.com/soracqt/config-artix
 ```
 
+
 # copy files and dirs
 
 ```bash
@@ -19,12 +20,6 @@ sudo cp -r . /usr
 ```bash
 cd dotfiles
 rsync -av . ~
-```
-
-# Outputs pkglist which excluded base,base-devel group
-
-```bash
-comm -23 <(pacman -Qqe | sort) <( pacman -Qqg base-devel base | sort -u) > pkglist.txt
 ```
 
 # add fstab
