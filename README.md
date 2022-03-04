@@ -4,6 +4,11 @@
 git clone --recursive https://github.com/soracqt/config-artix
 ```
 
+# Outputs pkglist which excluded base,base-devel group
+
+```bash
+comm -23 <(pacman -Qqe | sort) <( pacman -Qqg base-devel base | sort -u) > pkglist.txt
+```
 
 # copy files and dirs
 
