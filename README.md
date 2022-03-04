@@ -44,12 +44,6 @@ sudo chmod 700 /boot /etc/{iptables,arptables}
 echo "Defaults editor=/usr/bin/rvim"|sudo tee -a /etc/sudoers
 ```
 
-Enable apparmor
-
-```bash
-lsm=lockdown,yama,apparmor,bpf
-```
-
 # Change ~/.cache to tmpfs
 
 ```bash
