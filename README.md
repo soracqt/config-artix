@@ -13,18 +13,15 @@ comm -23 <(pacman -Qqe | sort) <( pacman -Qqg base-devel base | sort -u) > pkgli
 # copy files and dirs
 
 ```bash
-cd etc
-sudo cp -r . /etc
+sudo cp -r etc/ /
 ```
 
 ```bash
-cd usr
-sudo cp -r . /usr
+sudo cp -r usr/ /
 ```
 
 ```bash
-cd dotfiles
-rsync -av . ~
+rsync -av dotfiles/. ~
 ```
 
 # add fstab

@@ -96,9 +96,9 @@ imwheel
 inetutils
 inkscape
 intel-gpu-tools
-intellij-idea-community-edition
 intel-media-driver
 intel-ucode
+intellij-idea-community-edition
 iotop
 iptables-nft
 jd-gui-bin
@@ -147,6 +147,7 @@ nmap
 nodejs
 nordic-darker-theme
 noto-fonts-cjk
+npm
 nss-mdns
 ntp
 ntp-runit
@@ -179,7 +180,6 @@ profile-sync-daemon
 psensor
 pv
 pwgen
-python
 python-pip
 python-pyqt5
 qemu
@@ -196,6 +196,7 @@ rsv
 rsync
 runit
 rustup
+s-tui
 scrcpy
 screenfetch
 scrot
@@ -209,7 +210,6 @@ socat
 soundkonverter
 speedtest-cli
 strace
-s-tui
 subversion
 sway
 swayidle

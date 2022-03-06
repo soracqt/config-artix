@@ -25,7 +25,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu "rofi -modi drun,window,run -show drun -show-icons -columns 2"
+set $menu "LANG=en_US.UTF-8 rofi -modi drun,window,run -show drun -show-icons -columns 2"
 
 ### Output configuration
 
