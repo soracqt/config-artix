@@ -1,0 +1,6 @@
+configuration {
+	modi: "window,drun,ssh,combi";
+	font: "Roboto Mono 12";
+	combi-modi: "window,drun,ssh";
+ }
+@theme "/home/takumi/.config/rofi/themes/iceberg-dark.rasi"
