@@ -21,7 +21,7 @@ sudo cp -r usr/ /
 ```
 
 ```bash
-rsync -av dotfiles/. ~
+cp -r dotfiles/.* dotfiles/* ~
 ```
 
 # add fstab
