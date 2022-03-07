@@ -1,4 +1,5 @@
 configuration {
 	modi: "drun,window,run";
 	font: "Roboto Mono 12";
+        show-icons: true;
  }
