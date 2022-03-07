@@ -9,4 +9,3 @@ libvirtd
 ntpd
 virtlockd
 virtlogd
-NetworkManager-dispatcher
