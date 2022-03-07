@@ -166,6 +166,7 @@ papirus-nord
 paru-bin
 paruz
 pavucontrol-qt
+pbzip2
 peek
 picom
 pigz
@@ -278,7 +279,6 @@ xorg-xhost
 xorg-xinit
 xorg-xwayland
 xss-lock
-yarn
 yt-dlp
 ytfzf
 zip
