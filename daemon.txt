@@ -1,18 +1,18 @@
-# rsv list --enabled | grep -v agetty | awk -F: '{print $2}' |sed 's|\ ||g' > daemon.txt
-tlp
-firewalld
-dbus
-bluetoothd
+# rsv list --enabled | grep -v agetty | awk -F: '{print $2}' |sed 's|\ ||g' | sort -f > daemon.txt
 alsa
-ntpd
-usbguard
 auto-cpufreq
-NetworkManager
 avahi-daemon
-udevd
-virtlockd
 backlight
-elogind
+bluetoothd
 cupsd
-virtlogd
+dbus
+elogind
+firewalld
 libvirtd
+NetworkManager
+ntpd
+tlp
+udevd
+usbguard
+virtlockd
+virtlogd
