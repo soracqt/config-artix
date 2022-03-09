@@ -1,3 +1,4 @@
+# rsv list --enabled | grep -v agetty | awk -F: '{print $2}' |sed 's|\ ||g' > daemon.txt
 tlp
 firewalld
 dbus
