@@ -63,3 +63,6 @@ sudo gpasswd -a $USER libvirt
 # ~/.mozilla削除 && 設定コピー
 
 ```bash
+rm -rf ~/.mozilla
+cp -r dotfiles/.mozilla ~
+```
