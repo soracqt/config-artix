@@ -50,6 +50,7 @@ echo "Defaults editor=/usr/bin/rvim"|sudo tee -a /etc/sudoers
 
 ```bash
 echo "tmpfs   $HOME/.cache      tmpfs   noatime,nodev,nosuid,size=2G  0       0"|sudo tee -a /etc/fstab
+rm -rf ~/.cache
 ```
 
 # add libvirt group
@@ -58,3 +59,7 @@ echo "tmpfs   $HOME/.cache      tmpfs   noatime,nodev,nosuid,size=2G  0       0"
 sudo pacman -S virt-manager
 sudo gpasswd -a $USER libvirt
 ```
+
+# ~/.mozilla削除 && 設定コピー
+
+```bash
