@@ -15,3 +15,8 @@ user_pref("keyword.enabled", true);
 /* override recipe: enable DRM and let me watch videos ***/
    // user_pref("media.gmp-widevinecdm.enabled", true); // 2021 default-inactive in user.js
 user_pref("media.eme.enabled", true); // 2022
+// https://github.com/bagder/TRRprefs#networktrrcustom_uri
+user_pref("network.trr.custom_uri", "https://mozilla.cloudflare-dns.com/dns-query");
+// https://wiki.mozilla.org/Trusted_Recursive_Resolver
+user_pref("network.trr.mode", 2);
+user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
