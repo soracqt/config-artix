@@ -29,7 +29,7 @@ cryptsetup
 cups
 cups-runit
 dex2jar
-discord_arch_electron
+#discord_arch_electron
 dnsmasq
 docker
 docker-compose
@@ -234,7 +234,7 @@ trash-cli
 ttf-cica
 ttf-font-awesome
 ttf-ibm-plex
-ttf-plemol-jp
+#ttf-plemol-jp
 ttf-roboto-mono
 ttf-sarasa-gothic
 ttf-twemoji
