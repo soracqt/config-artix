@@ -1,4 +1,5 @@
-#!/bin/sh -x
+#!/bin/sh
+set -euo pipefail
 sudo cp -r etc/ /
 sudo cp -r usr/ /
 rsync -av dotfiles/. ~
