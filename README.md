@@ -9,6 +9,11 @@ git clone --recursive https://github.com/soracqt/config-artix
 ```bash
 comm -23 <(pacman -Qqe | sort) <( pacman -Qqg base-devel base | sort -u) > pkglist.txt
 ```
+# setup script
+
+```bash
+./setup.sh
+```
 
 # restore pkglist
 
