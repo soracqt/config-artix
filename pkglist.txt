@@ -234,7 +234,6 @@ trash-cli
 ttf-cica
 ttf-font-awesome
 ttf-ibm-plex
-#ttf-plemol-jp
 ttf-roboto-mono
 ttf-sarasa-gothic
 ttf-twemoji
