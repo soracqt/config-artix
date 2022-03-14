@@ -1,1 +1,2 @@
 tmpfs   /tmp         tmpfs   rw,nodev,nosuid,size=4G          0  0
+tmpfs   /home/takumi/.cache      tmpfs   noatime,nodev,nosuid,size=2G  0       0
