@@ -123,6 +123,7 @@ lolcat
 longcat
 lsof
 lua
+lvm2
 lxappearance
 mako
 man-db
