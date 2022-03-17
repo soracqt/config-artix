@@ -20,3 +20,5 @@ user_pref("network.trr.custom_uri", "https://mozilla.cloudflare-dns.com/dns-quer
 // https://wiki.mozilla.org/Trusted_Recursive_Resolver
 user_pref("network.trr.mode", 2);
 user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
+// https://github.com/arkenfox/user.js/issues/1367
+user_pref("security.ssl.require_safe_negotiation", false);
