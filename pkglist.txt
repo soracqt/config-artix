@@ -29,7 +29,7 @@ cryptsetup
 cups
 cups-runit
 dex2jar
-#discord_arch_electron
+discord
 dnsmasq
 docker
 docker-compose
@@ -219,6 +219,7 @@ syslinux
 tcpdump
 telegram-desktop
 terminus-font
+testdisk
 thefuck
 thunar
 thunar-archive-plugin
