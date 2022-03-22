@@ -271,6 +271,7 @@ xdotool
 xed
 xfce4-notifyd
 xfce4-terminal
+xmlstarlet
 xorg-server
 xorg-xev
 xorg-xeyes
