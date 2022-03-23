@@ -64,7 +64,6 @@ fish
 flameshot
 flatpak
 fontforge
-fonts-seto
 freerdp
 fzf
 fzpac-git
@@ -238,6 +237,7 @@ ttf-font-awesome
 ttf-ibm-plex
 ttf-roboto-mono
 ttf-sarasa-gothic
+ttf-seto
 ttf-twemoji
 tutanota-desktop-bin
 unarchiver

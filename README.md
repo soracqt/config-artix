@@ -33,6 +33,6 @@ chsh -s /bin/zsh
 
 ```bash
 killall firefox
-rm -rf ~/.mozilla ~/.cache
+rm -rf ~/.mozilla ~/.cache/*
 cp -r dotfiles/.mozilla ~
 ```
