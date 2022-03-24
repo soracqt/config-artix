@@ -10,6 +10,12 @@ git clone --recursive https://github.com/soracqt/config-artix
 comm -23 <(pacman -Qqe | sort) <( pacman -Qqg base-devel base | sort -u) > pkglist.txt
 ```
 
+# paru
+
+```bash
+cd /tmp; git clone https://aur.archlinux.org/paru-bin.git; cd paru-bin; makepkg -si
+```
+
 # setup script
 
 ```bash
