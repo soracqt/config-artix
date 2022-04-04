@@ -1,9 +1,5 @@
 # dotfiles and /etc tree
 
-```bash
-git clone --recursive https://github.com/soracqt/config-artix
-```
-
 # Outputs pkglist which excluded base,base-devel group
 
 ```bash
@@ -51,7 +47,5 @@ sudo sh -c 'usbguard generate-policy -PH > /etc/usbguard/rules.conf'
 # firefox clean profile && remove ~/.cache
 
 ```bash
-killall firefox
-rm -rf ~/.mozilla ~/.cache/*
-cp -r dotfiles/.mozilla ~
+killall firefox; rm -rf ~/.mozilla ~/.cache/*; cp -r dotfiles/.mozilla ~
 ```
