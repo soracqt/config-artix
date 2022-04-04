@@ -1,6 +1,6 @@
 configuration {
 	modi: "drun,window,run";
-	font: "Roboto Mono 12";
+	font: "Roboto Mono 13";
         show-icons: true;
         disable-history: true;
  }
