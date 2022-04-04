@@ -36,16 +36,16 @@ chsh -s /bin/zsh
 sudo sh -c 'usbguard generate-policy -PH > /etc/usbguard/rules.conf'
 ```
 
-# enable daemons
-
-```bash
-./daemon.sh
-```
-
 # fix permission for gnupg
 
 ```bash
 ./fix-permission-for-gnupg.sh
+```
+
+# enable daemons
+
+```bash
+./daemon.sh
 ```
 
 # firefox clean profile && remove ~/.cache

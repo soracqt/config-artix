@@ -240,6 +240,7 @@ for_window [class="mpv"] floating enable, resize set 1000 800
 for_window [class="Gnome-system-monitor"] floating enable
 for_window [class="Gpicview"] floating enable
 for_window [class="Xarchiver"] floating enable
+for_window [window_role="GtkFileChooserDialog"] resize set 1300 900, move position center
 
 ### i3status configuration
 #

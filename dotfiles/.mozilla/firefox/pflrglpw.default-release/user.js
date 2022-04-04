@@ -1383,4 +1383,4 @@ user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
 // https://github.com/arkenfox/user.js/issues/1367
 user_pref("security.ssl.require_safe_negotiation", false);
 // https://wiki.archlinux.org/title/HiDPI#Firefox
-user_pref("layout.css.devPixelsPerPx", 1.3);
+user_pref("layout.css.devPixelsPerPx", "1.3");
