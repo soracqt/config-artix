@@ -139,6 +139,7 @@ nano
 neofetch
 neovim
 neovim-qt
+nerd-fonts-roboto-mono
 net-tools
 networkmanager
 networkmanager-runit
@@ -259,6 +260,7 @@ whois
 wimlib
 wine
 winetricks
+wireless-regdb
 wireshark-qt
 wl-clipboard
 wofi
