@@ -24,7 +24,6 @@ bluez-utils
 chromium
 cloudflared-bin
 cpupower
-crda
 cryptsetup
 cups
 cups-runit
@@ -181,6 +180,7 @@ pv
 pwgen
 python-pip
 python-pyqt5
+qalculate-gtk
 qemu
 qemu-arch-extra
 qemu-user-static-bin
