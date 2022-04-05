@@ -30,11 +30,6 @@ paru -S --needed --sudoloop $(grep -v '^#' pkglist.txt)
 rustup install stable
 chsh -s /bin/zsh
 sudo sh -c 'usbguard generate-policy -PH > /etc/usbguard/rules.conf'
-```
-
-# fix permission for gnupg
-
-```bash
 ./fix-permission-for-gnupg.sh
 ```
 
