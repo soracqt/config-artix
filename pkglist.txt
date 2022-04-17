@@ -23,6 +23,7 @@ bluez-runit
 bluez-utils
 chromium
 cloudflared-bin
+cnijfilter2-mg3600
 cpupower
 cryptsetup
 cups
