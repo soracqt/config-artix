@@ -4,4 +4,4 @@ export XMODIFIERS=@im=fcitx
 export QT_QPA_PLATFORMTHEME=qt5ct
 export SSH_AUTH_SOCK=${XDG_RUNTIME_DIR}/ssh-agent.socket
 export QT_SCALE_FACTOR=1.2
-#export MOZ_DISABLE_RDD_SANDBOX=1
+export MOZ_DISABLE_RDD_SANDBOX=0
