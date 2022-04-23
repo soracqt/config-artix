@@ -99,6 +99,7 @@ intel-media-driver
 intel-ucode
 intellij-idea-community-edition
 iotop
+ipcalc
 iptables-nft
 jd-gui-bin
 jquake
