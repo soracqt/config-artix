@@ -24,3 +24,5 @@ user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
 user_pref("security.ssl.require_safe_negotiation", false);
 // https://wiki.archlinux.org/title/HiDPI#Firefox
 user_pref("layout.css.devPixelsPerPx", "1.3");
+// Enable UserCSS
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
