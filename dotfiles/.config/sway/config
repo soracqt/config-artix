@@ -273,8 +273,10 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
         accel_profile flat
 }
 
-input "1:1:AT_Translated_Set_2_keyboard" repeat_delay 280
-input "1:1:AT_Translated_Set_2_keyboard" repeat_rate 30
+input "type:keyboard" {
+    repeat_delay 280
+    repeat_rate 30
+}
 
 ### source gtk configuration
 
