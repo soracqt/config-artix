@@ -172,7 +172,7 @@ bindsym $mod+r mode "resize"
     bindsym $mod+slash exec xfce4-terminal --drop-down
 
     # Screen capture
-    bindsym $mod+Print exec grimshot copy area
+    bindsym $mod+Print exec flameshot gui
     bindsym Shift+Print exec peek
 
     # Screen brightness controls
@@ -263,12 +263,12 @@ bar {
 
 ### input configuration
 
-input * {
+input "type:pointer" {
         pointer_accel 0.1
 }
 
-input "2:7:SynPS/2_Synaptics_TouchPad" {
-	tap enabled
+input "type:touchpad" {
+        tap enabled
         natural_scroll enabled
         accel_profile flat
 }
@@ -282,3 +282,5 @@ input "type:keyboard" {
 
 exec_always ~/bin/import-gsettings
 
+# To get flameshot working
+exec --no-startup-id dbus-update-activation-environment --all
