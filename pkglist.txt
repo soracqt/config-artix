@@ -257,6 +257,7 @@ vulkan-intel
 vulkan-tools
 w3m
 wezterm
+wf-recorder
 wget
 whois
 wimlib
