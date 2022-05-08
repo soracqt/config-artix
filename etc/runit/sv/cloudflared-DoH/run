@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/cloudflared proxy-dns --upstream "https://dns.quad9.net/dns-query" > /dev/tty6

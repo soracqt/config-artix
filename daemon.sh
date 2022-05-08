@@ -18,3 +18,4 @@ sudo rsv enable udevd
 sudo rsv enable usbguard
 sudo rsv enable virtlockd
 sudo rsv enable virtlogd
+sudo rsv enable cloudflared-DoH

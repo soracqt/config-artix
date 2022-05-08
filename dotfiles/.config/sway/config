@@ -283,4 +283,4 @@ input "type:keyboard" {
 exec_always ~/bin/import-gsettings
 
 # To get flameshot working
-exec --no-startup-id dbus-update-activation-environment --all
+exec --no-startup-id dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
