@@ -1,3 +1,6 @@
+adapta-gtk-theme
+adobe-source-han-sans-jp-fonts
+adobe-source-han-serif-jp-fonts
 alacritty
 alsa-utils
 alsa-utils-runit
@@ -62,7 +65,6 @@ firefox-extension-arch-search
 firewalld
 fish
 flameshot
-flatpak
 fontforge
 freerdp
 fzf
@@ -147,8 +149,6 @@ networkmanager
 networkmanager-runit
 nmap
 nodejs
-nordic-darker-theme
-noto-fonts-cjk
 npm
 nss-mdns
 ntp
@@ -158,7 +158,6 @@ nyancat
 openbsd-netcat
 openssh-runit
 p7zip
-pacman-cleanup-hook
 pacman-contrib
 pacutils
 pandoc-bin
@@ -184,8 +183,8 @@ pwgen
 python-pip
 python-pyqt5
 qalculate-gtk
-qemu
-qemu-arch-extra
+qemu-desktop
+qemu-emulators-full
 qemu-user-static-bin
 qt5ct
 ranger
@@ -236,7 +235,7 @@ torbrowser-launcher
 traceroute
 trash-cli
 ttf-cica
-ttf-font-awesome
+ttf-font-awesome-4
 ttf-ibm-plex
 ttf-roboto-mono
 ttf-sarasa-gothic

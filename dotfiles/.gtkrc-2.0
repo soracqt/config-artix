@@ -2,9 +2,9 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/takumi/.gtkrc-2.0.mine"
-gtk-theme-name="Nordic-darker"
+gtk-theme-name="Adapta-Nokto"
 gtk-icon-theme-name="Papirus-Dark"
-gtk-font-name="Noto Sans CJK JP Medium 15"
+gtk-font-name="Sarasa Gothic J 14"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
