@@ -1,6 +1,4 @@
 adapta-gtk-theme
-adobe-source-han-sans-jp-fonts
-adobe-source-han-serif-jp-fonts
 alacritty
 alsa-utils
 alsa-utils-runit
@@ -97,9 +95,9 @@ imwheel
 inetutils
 inkscape
 intel-gpu-tools
+intellij-idea-community-edition
 intel-media-driver
 intel-ucode
-intellij-idea-community-edition
 iotop
 ipcalc
 iptables-nft
@@ -126,7 +124,7 @@ longcat
 lsof
 lua
 lvm2
-lxappearance
+lxappearance-gtk3
 mako
 man-db
 man-pages-ja
@@ -149,6 +147,9 @@ networkmanager
 networkmanager-runit
 nmap
 nodejs
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
 npm
 nss-mdns
 ntp
@@ -197,7 +198,6 @@ rsv
 rsync
 runit
 rustup
-s-tui
 scrcpy
 screenfetch
 scrot
@@ -211,6 +211,7 @@ socat
 soundkonverter
 speedtest-cli
 strace
+s-tui
 subversion
 sway
 swayidle
@@ -240,7 +241,6 @@ ttf-ibm-plex
 ttf-roboto-mono
 ttf-sarasa-gothic
 ttf-seto
-ttf-twemoji
 tutanota-desktop-bin
 unarchiver
 unzip

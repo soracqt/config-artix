@@ -26,3 +26,5 @@ user_pref("security.ssl.require_safe_negotiation", false);
 user_pref("layout.css.devPixelsPerPx", "1.3");
 // Enable UserCSS
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+// Font size
+user_pref("font.size.variable.x-western", 18);
