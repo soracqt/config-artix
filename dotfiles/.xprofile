@@ -3,5 +3,5 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export QT_QPA_PLATFORMTHEME=qt5ct
 export SSH_AUTH_SOCK=${XDG_RUNTIME_DIR}/ssh-agent.socket
-export QT_SCALE_FACTOR=1.3
-export QT_FONT_DPI=125
+export QT_SCALE_FACTOR=1.2
+export FC_LANG=ja
