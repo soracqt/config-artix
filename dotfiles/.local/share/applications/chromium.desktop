@@ -105,7 +105,7 @@ Comment[vi]=Truy cập Internet
 Comment[zh_CN]=访问互联网
 Comment[zh_HK]=連線到網際網路
 Comment[zh_TW]=連線到網際網路
-Exec=sh -c 'chromium --user-data-dir=$(ls /tmp/tmp* > /dev/null 2>&1 || mktemp -d) %U'
+Exec=chromium --user-data-dir=/tmp/chromium %U
 StartupNotify=true
 Terminal=false
 Icon=chromium
