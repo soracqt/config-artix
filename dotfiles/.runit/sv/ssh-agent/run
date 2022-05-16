@@ -1,3 +1,2 @@
 #!/bin/sh
-export SSH_AUTH_SOCK=${XDG_RUNTIME_DIR}/ssh-agent.socket
-eval $(ssh-agent -a ${SSH_AUTH_SOCK} 2> /dev/null)
+eval $(ssh-agent -a ${XDG_RUNTIME_DIR}/ssh-agent.socket 2> /dev/null)
