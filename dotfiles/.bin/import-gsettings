@@ -13,4 +13,5 @@ gsettings set "$gnome_schema" gtk-theme "$gtk_theme"
 gsettings set "$gnome_schema" icon-theme "$icon_theme"
 gsettings set "$gnome_schema" cursor-theme "$cursor_theme"
 gsettings set "$gnome_schema" font-name "$font_name"
-
+cursor_size="$(grep 'gtk-cursor-theme-size' "$config" | cut -d'=' -f2)"
+export XCURSOR_SIZE="$cursor_size"

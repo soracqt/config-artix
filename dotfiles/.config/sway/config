@@ -270,6 +270,7 @@ input "type:touchpad" {
         tap enabled
         natural_scroll enabled
         accel_profile flat
+        scroll_factor 1.0
 }
 
 input "type:keyboard" {
@@ -280,7 +281,7 @@ input "type:keyboard" {
 
 ### source gtk configuration
 
-exec_always ~/bin/import-gsettings
+exec_always ~/.bin/import-gsettings
 
 # To get flameshot working
 exec --no-startup-id dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
