@@ -1,5 +1,5 @@
 #!/bin/sh
-set -euo pipefail
+set -uo pipefail
 sudo cp -r etc/ /
 sudo cp -r usr/ /
 rsync -av dotfiles/. ~
