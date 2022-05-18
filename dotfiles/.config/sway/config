@@ -3,7 +3,6 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 1 sway` for a complete reference.
-include /etc/sway/config.d/*
 
 font pango:monospace 8
 
@@ -276,6 +275,7 @@ input "type:touchpad" {
 input "type:keyboard" {
     repeat_delay 280
     repeat_rate 30
+    xkb_options caps:ctrl_modifier
 }
 
 ### source gtk configuration
