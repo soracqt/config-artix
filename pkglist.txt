@@ -286,7 +286,6 @@ xss-lock
 yt-dlp
 ytfzf
 zip
-zoom
 zoxide
 zsh
 zsh-autosuggestions
