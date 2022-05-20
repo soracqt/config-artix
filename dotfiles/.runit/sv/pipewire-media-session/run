@@ -9,4 +9,4 @@ if [ "${LOGGING_ENABLE}x" = "1x" -a -n "${LOG_LEVEL}" ]; then
     export PIPEWIRE_DEBUG="${LOG_LEVEL}"
 fi
 
-exec pipewire-media-session || wireplumber ${OPTS:-} 2>&1
+exec pipewire-media-session ${OPTS:-} 2>&1

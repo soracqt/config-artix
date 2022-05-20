@@ -4,7 +4,6 @@ alsa-utils-runit
 android-apktool
 android-tools
 arandr
-arc-gtk-theme
 arch-audit
 archiso
 aria2
@@ -81,6 +80,8 @@ gnome-keyring
 gnome-system-monitor
 go
 gparted
+graphite-gtk-theme-nord-git
+graphite-kde-theme-git
 grim
 grub
 gtk-engine-murrine
