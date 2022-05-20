@@ -1,10 +1,10 @@
-adapta-gtk-theme
 alacritty
 alsa-utils
 alsa-utils-runit
 android-apktool
 android-tools
 arandr
+arc-gtk-theme
 arch-audit
 archiso
 aria2
@@ -22,6 +22,7 @@ blueman
 bluez
 bluez-runit
 bluez-utils
+bumblebee-status
 chromium
 cloudflared-bin
 cnijfilter2-mg3600
@@ -90,7 +91,6 @@ htop
 hugo
 i3-gaps
 i3lock
-i3status-rust
 imwheel
 inetutils
 inkscape
@@ -107,7 +107,7 @@ kakoune
 kdeconnect
 keepassxc
 kid3
-kvantum-qt5
+kvantum
 lazygit
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -236,7 +236,6 @@ torbrowser-launcher
 traceroute
 trash-cli
 ttf-cica
-ttf-font-awesome-4
 ttf-ibm-plex
 ttf-roboto-mono
 ttf-sarasa-gothic
