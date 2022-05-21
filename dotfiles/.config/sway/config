@@ -255,9 +255,12 @@ for_window [app_id="xarchiver"] floating enable
 ### i3status configuration
 
 bar {
-	    status_command i3status-rs
-	    tray_output primary
-	    font pango:Cica Regular 21px
+    status_command bumblebee-status \
+        -m sensors memory battery nic arch_update date time hostname kernel \
+        -p time.format="%H:%M" date.format="%m/%d" memory.format=" {percent:05.02f}%" nic.format='{intf} {ip}'\
+        -t rose-pine
+    tray_output primary
+    font pango:Cica Regular 21px
 }
 
 ### input configuration
