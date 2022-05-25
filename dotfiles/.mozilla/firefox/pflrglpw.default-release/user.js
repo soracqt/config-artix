@@ -1395,3 +1395,4 @@ user_pref("security.ssl.require_safe_negotiation", false);
 user_pref("layout.css.devPixelsPerPx", "1.25");
 // Enable UserCSS
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("browser.tabs.drawInTitlebar", true);
