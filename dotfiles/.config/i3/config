@@ -234,9 +234,11 @@ focus_follows_mouse no
 
 for_window [class="Lxappearance"] floating enable
 for_window [class="GParted"] floating enable
-for_window [class="pavucontrol-qt"] floating enable
+for_window [class="Pavucontrol"] floating enable
 for_window [class="fcitx5-config-qt"] floating enable
 for_window [class="mpv"] floating enable, resize set 1000 800
+for_window [class="Gnome-system-monitor"] floating enable
+for_window [class="Gpicview"] floating enable
 for_window [class="Xarchiver"] floating enable
 for_window [window_role="GtkFileChooserDialog"] resize set 1300 900, move position center
 
@@ -253,7 +255,7 @@ bar {
         status_command bumblebee-status \
             -m sensors memory battery nic arch_update date time hostname kernel \
             -p time.format="%H:%M" date.format="%m/%d" memory.format=" {percent:05.02f}%" nic.format='{intf} {ip}'\
-            -t rose-pine
+            -t onedark-powerline
         tray_output primary
         font pango:Cica Regular 21px
         height 30
