@@ -80,8 +80,6 @@ gnome-keyring
 gnome-system-monitor
 go
 gparted
-graphite-gtk-theme-nord-git
-graphite-kde-theme-git
 grim
 grub
 gtk-engine-murrine
@@ -109,6 +107,7 @@ kdeconnect
 keepassxc
 kid3
 kvantum
+kvantum-theme-nordic-git
 lazygit
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -129,7 +128,6 @@ lxappearance-gtk3
 mako
 man-db
 man-pages-ja
-megatools-bin
 memtest86-efi
 mesa-utils
 minecraft-launcher
@@ -148,6 +146,7 @@ networkmanager
 networkmanager-runit
 nmap
 nodejs
+nordic-darker-theme
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -164,6 +163,8 @@ pacman-contrib
 pacutils
 pandoc-bin
 papirus-icon-theme
+papirus-linux-universe
+papirus-nord
 paru-bin
 paruz
 pavucontrol-qt

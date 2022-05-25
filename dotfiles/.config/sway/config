@@ -245,12 +245,9 @@ for_window [class="^.*"] border pixel 2
 
 for_window [class="Lxappearance"] floating enable 
 for_window [class="GParted"] floating enable
-for_window [app_id="pavucontrol"] floating enable
+for_window [app_id="pavucontrol-qt"] floating enable
 for_window [app_id="fcitx5-config-qt"] floating enable
 for_window [app_id="mpv"] floating enable, resize set 1000 800
-for_window [app_id="gnome-system-monitor"] floating enable
-for_window [app_id="gpicview"] floating enable
-for_window [app_id="xarchiver"] floating enable
 
 ### i3status configuration
 
@@ -272,7 +269,6 @@ input "type:pointer" {
 input "type:touchpad" {
         tap enabled
         natural_scroll enabled
-        accel_profile flat
         scroll_factor 1.0
 }
 
