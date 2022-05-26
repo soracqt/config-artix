@@ -27,7 +27,7 @@ paru -S --needed --sudoloop $(grep -v '^#' pkglist.txt)
 # before install aur package
 
 ```bash
-rustup install stable; chsh -s /bin/zsh; sudo sh -c 'usbguard generate-policy -PH > /etc/usbguard/rules.conf'; ./fix-permission-for-gnupg.sh
+rustup install stable; chsh -s /bin/zsh; sudo sh -c 'usbguard generate-policy -PH > /etc/usbguard/rules.conf'; cd /tmp/config-artix; ./fix-permission-for-gnupg.sh
 ```
 
 # enable daemons
