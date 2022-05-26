@@ -185,7 +185,7 @@ bindsym $mod+r mode "resize"
 #
 # Power manages:
 #
-set $Locker swaylock -f -c 000000 && sleep 1
+set $Locker swaylock -f -c 000000 -i ~/Pictures/kittyboard_wall_resize.png && sleep 1
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id $Locker, mode "default"
@@ -222,10 +222,10 @@ bindsym $mod+Shift+e mode "$mode_system"
 ### Idle configuration
 
 exec swayidle -w \
-         timeout 300 'swaylock -f -c 000000' \
-         timeout 600 'swaymsg "output * dpms off"' \
+         timeout 600 'swaylock -f -c 000000 -i ~/Pictures/kittyboard_wall_resize.png; playerctl pause; swaymsg "output * dpms off"' \
               resume 'swaymsg "output * dpms on"' \
-         before-sleep 'swaylock -f -c 000000 && playerctl pause'
+         timeout 300 'loginctl suspend' \
+         before-sleep 'swaylock -f -c 000000 -i ~/Pictures/kittyboard_wall_resize.png && playerctl pause'
 
 ### Auto start programs
 
@@ -243,21 +243,59 @@ for_window [class="^.*"] border pixel 2
 
 ### Default floating windows
 
-for_window [class="Lxappearance"] floating enable 
-for_window [class="GParted"] floating enable
-for_window [app_id="pavucontrol-qt"] floating enable
-for_window [app_id="fcitx5-config-qt"] floating enable
 for_window [app_id="mpv"] floating enable, resize set 1000 800
 
 ### i3status configuration
 
+# Base16 Nord by arcticicestudio
+# template by Matt Parnell, @parnmatt
+
+set $base00 #2E3440
+set $base01 #3B4252
+set $base02 #434C5E
+set $base03 #4C566A
+set $base04 #D8DEE9
+set $base05 #E5E9F0
+set $base06 #ECEFF4
+set $base07 #8FBCBB
+set $base08 #BF616A
+set $base09 #D08770
+set $base0A #EBCB8B
+set $base0B #A3BE8C
+set $base0C #88C0D0
+set $base0D #81A1C1
+set $base0E #B48EAD
+set $base0F #5E81AC
+
+# Window Colours            border  background  text    indicator
+client.focused              $base0D $base0D     $base00 $base01
+client.focused_inactive     $base02 $base02     $base03 $base01
+client.unfocused            $base01 $base01     $base03 $base01
+client.urgent               $base02 $base08     $base07 $base08
+
+## remember to add the rest of your configuration
+
 bar {
-    status_command bumblebee-status \
-        -m sensors memory battery nic arch_update date time hostname kernel \
-        -p time.format="%H:%M" date.format="%m/%d" memory.format=" {percent:05.02f}%" nic.format='{intf} {ip}'\
-        -t onedark-powerline
-    tray_output primary
-    font pango:Cica Regular 21px
+        status_command bumblebee-status \
+            -m sensors memory battery nic arch_update date time hostname kernel \
+            -p time.format="%H:%M" date.format="%m/%d" memory.format=" {percent:05.02f}%" nic.format='{intf} {ip}'\
+            -t nord-powerline
+        tray_output primary
+        font pango:Cica Regular 21px
+        height 30
+
+
+        colors {
+        separator   $base03
+        background  $base01
+        statusline  $base05
+
+        #                   border  background  text
+        focused_workspace   $base0C $base0D     $base00
+        active_workspace    $base02 $base02     $base07
+        inactive_workspace  $base01 $base01     $base03
+        urgent_workspace    $base08 $base08     $base07
+    }
 }
 
 ### input configuration

@@ -232,42 +232,58 @@ focus_follows_mouse no
 
 ### Default floating windows
 
-for_window [class="Lxappearance"] floating enable
-for_window [class="GParted"] floating enable
-for_window [class="Pavucontrol"] floating enable
-for_window [class="fcitx5-config-qt"] floating enable
 for_window [class="mpv"] floating enable, resize set 1000 800
-for_window [class="Gnome-system-monitor"] floating enable
-for_window [class="Gpicview"] floating enable
-for_window [class="Xarchiver"] floating enable
 for_window [window_role="GtkFileChooserDialog"] resize set 1300 900, move position center
 
 ### i3status configuration
-#
-# nord colorscheme:
-#
-set $nord0   #2E3440
-set $nord3   #4C566A
-set $nord8   #88C0D0
-set $nord15  #B48EAD
+# Base16 Nord by arcticicestudio
+# template by Matt Parnell, @parnmatt
+
+set $base00 #2E3440
+set $base01 #3B4252
+set $base02 #434C5E
+set $base03 #4C566A
+set $base04 #D8DEE9
+set $base05 #E5E9F0
+set $base06 #ECEFF4
+set $base07 #8FBCBB
+set $base08 #BF616A
+set $base09 #D08770
+set $base0A #EBCB8B
+set $base0B #A3BE8C
+set $base0C #88C0D0
+set $base0D #81A1C1
+set $base0E #B48EAD
+set $base0F #5E81AC
+
+# Window Colours            border  background  text    indicator
+client.focused              $base0D $base0D     $base00 $base01
+client.focused_inactive     $base02 $base02     $base03 $base01
+client.unfocused            $base01 $base01     $base03 $base01
+client.urgent               $base02 $base08     $base07 $base08
+
+## remember to add the rest of your configuration
 
 bar {
         status_command bumblebee-status \
             -m sensors memory battery nic arch_update date time hostname kernel \
             -p time.format="%H:%M" date.format="%m/%d" memory.format=" {percent:05.02f}%" nic.format='{intf} {ip}'\
-            -t onedark-powerline
+            -t nord-powerline
         tray_output primary
         font pango:Cica Regular 21px
         height 30
 
+
         colors {
-                background $nord0
-                statusline $nord8
+        separator   $base03
+        background  $base01
+        statusline  $base05
 
-                focused_workspace  $nord3  $nord8
-                active_workspace   $nord3  $nord8
-                inactive_workspace $nord8  $nord3
-                urgent_workspace   $nord3 $nord15 
-
-        }
+        #                   border  background  text
+        focused_workspace   $base0C $base0D     $base00
+        active_workspace    $base02 $base02     $base07
+        inactive_workspace  $base01 $base01     $base03
+        urgent_workspace    $base08 $base08     $base07
+    }
 }
+

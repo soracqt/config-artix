@@ -167,7 +167,7 @@ papirus-linux-universe
 papirus-nord
 paru-bin
 paruz
-pavucontrol-qt
+pavucontrol
 pbzip2
 peek
 picom
