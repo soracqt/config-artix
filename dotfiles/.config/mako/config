@@ -1,0 +1,15 @@
+# vim: filetype=yaml
+# dunst template
+# Base16 Nord Dark, by arcticicestudio
+
+font=Roboto Mono 14
+background-color=#2E3440
+[urgency=low]
+border-color=#8FBCBB
+
+[urgency=normal]
+border-color=#81A1C1
+
+[urgency=critical]
+border-color=#BF616A
+
