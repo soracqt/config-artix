@@ -8,7 +8,7 @@ sudo rsv enable backlight
 sudo rsv enable bluetoothd
 sudo rsv enable cupsd
 sudo rsv enable dbus
-sudo rsv enable elogind
+sudo rsv enable seatd
 sudo rsv enable firewalld
 sudo rsv enable libvirtd
 sudo rsv enable NetworkManager

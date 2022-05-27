@@ -41,7 +41,6 @@ dua-cli
 edk2-ovmf
 edk2-shell
 efibootmgr
-elogind-runit
 eog
 ethtool
 evince
@@ -204,6 +203,7 @@ scrcpy
 screenfetch
 scrot
 seahorse
+seatd-runit
 shellcheck
 signal-desktop
 sl
