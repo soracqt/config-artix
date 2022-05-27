@@ -231,7 +231,7 @@ if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
 
   " .toml file
-  let s:rc_dir = expand('~/.vim')
+  let s:rc_dir = expand('~/.config/dein')
   if !isdirectory(s:rc_dir)
     call mkdir(s:rc_dir, 'p')
   endif

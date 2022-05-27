@@ -51,6 +51,6 @@ fi
 setxkbmap -option caps:none
 xset r rate 280 40
 [ -f ~/.xprofile ] && source ~/.xprofile
-runsvdir ~/.runit/runsvdir &
+runsvdir ~/.config/runit/runsvdir &
 
 exec dbus-launch --exit-with-session i3

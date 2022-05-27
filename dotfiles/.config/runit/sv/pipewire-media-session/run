@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Wait for the PipeWire daemon to start.
-sv check "$HOME/.runit/sv/pipewire" >/dev/null || exit 1
+sv check "$HOME/.config/runit/sv/pipewire" >/dev/null || exit 1
 
 [ -r ./conf ] && . ./conf
 

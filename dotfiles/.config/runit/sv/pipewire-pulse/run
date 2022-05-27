@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Wait for the PipeWire Media Session daemon to start.
-sv check "$HOME/.runit/sv/pipewire-media-session" >/dev/null || exit 1
+sv check "$HOME/.config/runit/sv/pipewire-media-session" >/dev/null || exit 1
 
 [ -r ./conf ] && . ./conf
 
