@@ -23,7 +23,7 @@ export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
 
 # sway and i3wm
 if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty2" ]; then
-        exec ~/.bin/sway.sh
+        exec ~/.local/bin/sway.sh
 elif [ -z $WAYLAND_DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
         startx
 fi

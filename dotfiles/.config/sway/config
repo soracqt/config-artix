@@ -318,7 +318,7 @@ input "type:keyboard" {
 
 ### source gtk configuration
 
-exec_always ~/.bin/import-gsettings
+exec_always ~/.local/bin/import-gsettings
 
 # To get flameshot working
 exec --no-startup-id dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
