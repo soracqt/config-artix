@@ -1,9 +1,9 @@
-[submodule "dotfiles/.tmux/themes/nord-tmux"]
-	path = dotfiles/.local/share/tmux/themes/nord-tmux
-	url = https://github.com/arcticicestudio/nord-tmux
 [submodule "dotfiles/.local/share/dein/repos/github.com/Shougo/dein.vim"]
 	path = dotfiles/.local/share/dein/repos/github.com/Shougo/dein.vim
 	url = https://github.com/Shougo/dein.vim
 [submodule "dotfiles/.mozilla/firefox/pflrglpw.default-release/chrome/firefox-nordic-theme"]
 	path = dotfiles/.mozilla/firefox/pflrglpw.default-release/chrome/firefox-nordic-theme
 	url = https://github.com/EliverLara/firefox-nordic-theme.git
+[submodule "dotfiles/.local/share/tmux/themes/nord-tmux"]
+	path = dotfiles/.local/share/tmux/themes/nord-tmux
+	url = https://github.com/arcticicestudio/nord-tmux
