@@ -2,7 +2,7 @@
 export GOPATH="$HOME/go"
 
 # user path
-export PATH="$PATH:$GOPATH/bin:$HOME/bin:$HOME/.local/bin"
+export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin"
 
 # nvim
 export EDITOR="nvim"
