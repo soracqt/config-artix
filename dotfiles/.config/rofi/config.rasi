@@ -4,4 +4,7 @@ configuration {
         show-icons: true;
         disable-history: true;
  }
-@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/home/takumi/.config/rofi/themes/rounded-nord-dark.rasi"
+//@theme "/home/takumi/.config/rofi/themes/nord.rasi"
+@theme "/home/takumi/.config/rofi/themes/nord.rasi"
