@@ -146,6 +146,7 @@ networkmanager-runit
 nmap
 nodejs
 nordic-darker-theme
+nordic-wallpapers
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -274,6 +275,7 @@ xdg-desktop-portal-wlr
 xdg-user-dirs
 xdotool
 xed
+xfce4-clipman-plugin
 xfce4-notifyd
 xfce4-terminal
 xmlstarlet
