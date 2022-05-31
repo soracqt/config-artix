@@ -1396,3 +1396,5 @@ user_pref("layout.css.devPixelsPerPx", "1.25");
 // Enable UserCSS
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.tabs.drawInTitlebar", true);
+// disable RFP
+user_pref("privacy.resistFingerprinting", false);
