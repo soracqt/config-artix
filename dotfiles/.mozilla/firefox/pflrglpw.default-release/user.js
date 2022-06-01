@@ -1398,3 +1398,5 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.tabs.drawInTitlebar", true);
 // disable RFP
 user_pref("privacy.resistFingerprinting", false);
+// disable saving passwords
+user_pref("signon.rememberSignons", false);
