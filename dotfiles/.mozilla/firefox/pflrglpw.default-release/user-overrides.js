@@ -31,3 +31,5 @@ user_pref("browser.tabs.drawInTitlebar", true);
 user_pref("privacy.resistFingerprinting", false);
 // disable saving passwords
 user_pref("signon.rememberSignons", false);
+// use japanese as preffered language
+user_pref("intl.accept_languages", "ja,en-us,en");
