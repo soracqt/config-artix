@@ -144,7 +144,7 @@ networkmanager
 networkmanager-runit
 nmap
 nodejs
-nordic-darker-theme
+nordic-darker-theme-git
 nordic-wallpapers
 noto-fonts
 noto-fonts-cjk
@@ -207,7 +207,6 @@ seatd-runit
 shellcheck
 signal-desktop
 sl
-slack-desktop
 smartmontools
 socat
 soundkonverter

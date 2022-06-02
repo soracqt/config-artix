@@ -5,3 +5,4 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export SSH_AUTH_SOCK=${XDG_RUNTIME_DIR}/ssh-agent.socket
 export QT_SCALE_FACTOR=1.25
 export FC_LANG=ja
+export GTK_THEME=Nordic-darker
