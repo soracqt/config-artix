@@ -33,3 +33,5 @@ user_pref("privacy.resistFingerprinting", false);
 user_pref("signon.rememberSignons", false);
 // use japanese as preffered language
 user_pref("intl.accept_languages", "ja,en-us,en");
+// Ctrl+Tab cycles through tabs in recently used order
+user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
