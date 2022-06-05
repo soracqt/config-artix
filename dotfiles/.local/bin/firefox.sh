@@ -1,1 +1,1 @@
-TZ=UTC firefox
+TZ=UTC /usr/lib/firefox/firefox
