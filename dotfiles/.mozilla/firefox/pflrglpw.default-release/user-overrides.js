@@ -32,6 +32,9 @@ user_pref("privacy.resistFingerprinting", false);
 // disable saving passwords
 user_pref("signon.rememberSignons", false);
 // use japanese as preffered language
-user_pref("intl.accept_languages", "ja,en-us,en");
+//user_pref("intl.accept_languages", "ja,en-us,en");
 // Ctrl+Tab cycles through tabs in recently used order
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
+// pref from RFP
+user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0");
+user_pref("general.platform.override", "Win32");
