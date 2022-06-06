@@ -1,6 +1,6 @@
 command -v exa &>/dev/null && alias ls='exa -F' \
         alias la='exa -Fa' \
-        alias ll='exa -Fal' \
+        alias ll='exa -Falg' \
         alias tree='exa -T' \
 alias cp='cp -v'
 alias mv='mv -v'
