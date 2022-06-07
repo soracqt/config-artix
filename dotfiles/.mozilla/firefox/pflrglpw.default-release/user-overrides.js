@@ -22,8 +22,6 @@ user_pref("network.trr.mode", 2);
 user_pref("network.trr.uri", "https://dns.quad9.net/dns-query");
 // https://github.com/arkenfox/user.js/issues/1367
 user_pref("security.ssl.require_safe_negotiation", false);
-// https://wiki.archlinux.org/title/HiDPI#Firefox
-user_pref("layout.css.devPixelsPerPx", "1.25");
 // Enable UserCSS
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.tabs.drawInTitlebar", true);
