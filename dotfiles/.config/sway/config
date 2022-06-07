@@ -167,8 +167,8 @@ bindsym $mod+r mode "resize"
     # Gnome system monitor
     bindsym $mod+Shift+s exec gnome-system-monitor
 
-    # Xfce4-terminal dropdown mode
-    bindsym $mod+slash exec xfce4-terminal --drop-down
+    # keepmenu autotyping
+    bindsym $mod+slash exec keepmenu
 
     # Screen capture
     bindsym $mod+Print exec flameshot gui
