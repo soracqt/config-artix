@@ -36,5 +36,5 @@ user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 // pref from RFP, useragent and platform
 user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0");
 user_pref("general.platform.override", "Win32");
-// disable check default browser
-user_pref("browser.shell.checkDefaultBrowser", false);
+// send the target URL as the referer
+user_pref("network.http.referer.spoofSource", true);
