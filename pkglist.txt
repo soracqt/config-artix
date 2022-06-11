@@ -236,7 +236,6 @@ tmux
 torbrowser-launcher
 traceroute
 trash-cli
-ttf-cica
 ttf-ibm-plex
 ttf-roboto-mono
 ttf-sarasa-gothic
