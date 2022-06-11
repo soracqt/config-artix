@@ -148,7 +148,6 @@ nordic-darker-theme-git
 nordic-wallpapers
 noto-fonts
 noto-fonts-cjk
-noto-fonts-emoji
 npm
 nss-mdns
 ntp
@@ -240,6 +239,7 @@ ttf-ibm-plex
 ttf-roboto-mono
 ttf-sarasa-gothic
 ttf-seto
+ttf-twemoji
 tutanota-desktop-bin
 unarchiver
 unzip
