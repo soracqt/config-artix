@@ -17,6 +17,6 @@ sudo rsv enable udevd
 sudo rsv enable usbguard
 sudo rsv enable virtlockd
 sudo rsv enable virtlogd
-sudo rsv enable cloudflared-DoH
 sudo rsv enable thermald
 sudo rsv enable cpupower
+sudo rsv enable stubby

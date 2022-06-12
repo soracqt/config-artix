@@ -1,0 +1,3 @@
+#!/bin/sh
+exec setpriv --reuid stubby --regid stubby --clear-groups --ambient-caps +net_bind_service --inh-caps +net_bind_service -- '/usr/bin/stubby'
+
