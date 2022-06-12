@@ -10,7 +10,6 @@ aria2
 arp-scan
 artix-archlinux-support
 asp
-auto-cpufreq
 avahi-runit
 backlight-runit
 base
@@ -26,6 +25,7 @@ chromium
 cloudflared-bin
 cnijfilter2-mg3600
 cpupower
+cpupower-runit
 cryptsetup
 cups
 cups-runit
@@ -223,6 +223,7 @@ telegram-desktop
 terminus-font
 testdisk
 thefuck
+thermald-runit
 thunar
 thunar-archive-plugin
 thunderbird

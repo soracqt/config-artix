@@ -2,7 +2,6 @@
 set -euo pipefail
 # sudo rsv list --enabled | grep -v agetty | awk -F: '{print $2}' |sed 's|\ ||g' | sort -f > daemon.txt
 sudo rsv enable alsa
-sudo rsv enable auto-cpufreq
 sudo rsv enable avahi-daemon
 sudo rsv enable backlight
 sudo rsv enable bluetoothd
@@ -19,3 +18,5 @@ sudo rsv enable usbguard
 sudo rsv enable virtlockd
 sudo rsv enable virtlogd
 sudo rsv enable cloudflared-DoH
+sudo rsv enable thermald
+sudo rsv enable cpupower
