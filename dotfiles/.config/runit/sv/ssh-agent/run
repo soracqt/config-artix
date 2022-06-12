@@ -1,2 +1,0 @@
-#!/bin/sh
-eval $(ssh-agent -a ${XDG_RUNTIME_DIR}/ssh-agent.socket 2> /dev/null)

@@ -9,5 +9,5 @@ keepassxc --localconfig $HOME/.config/keepassxc/keepassxc.ini &
 xss-lock -n dim-screen.sh -- i3lock -n -c 100000 -i ~/Pictures/kittyboard_wall_resize.png &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
-gnome-keyring-daemon --start --components=pkcs11,secrets &
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 xfce4-clipman &
