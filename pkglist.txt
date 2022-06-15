@@ -181,6 +181,7 @@ pv
 pwgen
 python-pip
 python-pyqt5
+python-rangehttpserver
 qalculate-gtk
 qemu-desktop
 qemu-emulators-full
