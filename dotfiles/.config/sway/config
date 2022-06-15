@@ -300,14 +300,11 @@ bar {
 
 ### input configuration
 
-input "type:pointer" {
-        pointer_accel 0.1
-}
-
 input "type:touchpad" {
         tap enabled
         natural_scroll enabled
-        scroll_factor 1.0
+        accel_profile adaptive
+        scroll_factor 0.2
 }
 
 input "type:keyboard" {
