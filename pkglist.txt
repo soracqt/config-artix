@@ -251,6 +251,8 @@ veracrypt
 vi
 virt-manager
 visual-studio-code-bin
+vivaldi
+vivaldi-ffmpeg-codecs
 vlc
 vulkan-intel
 vulkan-tools
