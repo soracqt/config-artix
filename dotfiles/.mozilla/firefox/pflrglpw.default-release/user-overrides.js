@@ -38,3 +38,5 @@ user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:91.0) 
 user_pref("general.platform.override", "Win32");
 // send the target URL as the referer
 user_pref("network.http.referer.spoofSource", true);
+// https://wiki.archlinux.org/title/Firefox#Right_mouse_button_instantly_clicks_the_first_option_in_window_managers
+user_pref("ui.context_menus.after_mouseup", true);
