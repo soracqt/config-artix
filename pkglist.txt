@@ -22,6 +22,8 @@ bluez-runit
 bluez-utils
 bumblebee-status
 chromium
+chrony
+chrony-runit
 cnijfilter2-mg3600
 cpupower
 cryptsetup
@@ -148,8 +150,6 @@ noto-fonts
 noto-fonts-cjk
 npm
 nss-mdns
-ntp
-ntp-runit
 nvme-cli
 nyancat
 openbsd-netcat
