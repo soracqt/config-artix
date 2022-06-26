@@ -11,7 +11,7 @@ sudo rsv enable seatd
 sudo rsv enable firewalld
 sudo rsv enable libvirtd
 sudo rsv enable NetworkManager
-sudo rsv enable ntpd
+sudo rsv enable chrony
 sudo rsv enable tlp
 sudo rsv enable udevd
 sudo rsv enable usbguard
