@@ -180,7 +180,6 @@ psensor
 pv
 pwgen
 python-pip
-python-pyqt5
 python-rangehttpserver
 qalculate-gtk
 qemu-desktop
@@ -201,6 +200,7 @@ scrcpy
 screenfetch
 scrot
 seahorse
+seatd
 seatd-runit
 shellcheck
 signal-desktop
@@ -223,6 +223,7 @@ telegram-desktop
 terminus-font
 testdisk
 thefuck
+thermald
 thermald-runit
 thunar
 thunar-archive-plugin
@@ -244,7 +245,6 @@ ttf-twemoji
 tutanota-desktop-bin
 unarchiver
 unzip
-upd72020x-fw
 usbguard
 usbguard-runit
 veracrypt
