@@ -119,6 +119,7 @@ linux-firmware
 linux-lts
 lolcat
 longcat
+lostfiles
 lsof
 lua
 lvm2
