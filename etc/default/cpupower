@@ -4,7 +4,7 @@ governor='powersave'
 
 # Limit frequency range
 # Valid suffixes: Hz, kHz (default), MHz, GHz, THz
-#min_freq="800MHz"
+min_freq="800MHz"
 max_freq="1.8GHz"
 
 # Specific frequency to be set.
