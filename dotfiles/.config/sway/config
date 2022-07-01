@@ -29,7 +29,8 @@ set $menu "wofi --show drun --allow-images --columns 2"
 ### Output configuration
 
 # Set recent wallpaper
-output * bg ~/Pictures/wallpaper3.jpg fill
+output * bg /usr/share/backgrounds/nordic-wallpapers/kittyboard.png fill
+
 ### Key bindings
 #
 # Basics:
