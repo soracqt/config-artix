@@ -215,6 +215,7 @@ stubby
 s-tui
 subversion
 sway
+swaybg
 swayidle
 swaylock
 syncthing
