@@ -8,5 +8,5 @@ if [ "${LOGGING_ENABLE}x" = "1x" ]; then
 
     exec svlogd -tt "${LOG_DIR}"
 else
-    exec chpst -b pipewire-media-session-log-null cat >/dev/null
+    exec chpst -b wireplumber-log-null cat >/dev/null
 fi

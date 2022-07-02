@@ -7,4 +7,4 @@ OPTS=''
 # Setting this to 1 enables logging, any other value - disables.
 LOGGING_ENABLE=0
 # The directory will be created for you, if logging is enabled.
-LOG_DIR="$HOME/var/log/syncthing"
+LOG_DIR="$HOME/.local/share/log/syncthing"
