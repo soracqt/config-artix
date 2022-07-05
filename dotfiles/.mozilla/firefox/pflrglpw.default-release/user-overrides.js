@@ -34,7 +34,7 @@ user_pref("signon.rememberSignons", false);
 // Ctrl+Tab cycles through tabs in recently used order
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
 // pref from RFP, useragent and platform
-user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0");
+user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0");
 user_pref("general.platform.override", "Win32");
 // send the target URL as the referer
 user_pref("network.http.referer.spoofSource", true);
