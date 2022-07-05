@@ -30,6 +30,7 @@ cryptsetup
 cups
 cups-runit
 dex2jar
+dmidecode
 dnsmasq
 docker
 docker-compose
