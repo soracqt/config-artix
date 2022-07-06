@@ -146,6 +146,7 @@ networkmanager
 networkmanager-runit
 nmap
 nodejs
+noise-suppression-for-voice
 nordic-darker-theme-git
 nordic-wallpapers
 noto-fonts
