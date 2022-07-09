@@ -59,6 +59,7 @@ fd
 feh
 figlet
 firefox
+firejail
 firewalld
 fish
 flameshot
