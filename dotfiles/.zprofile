@@ -29,3 +29,4 @@ elif [ -z $WAYLAND_DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
 fi
 
 export LC_MESSAGES=en_US.UTF-8
+export GHQ_ROOT=~/project
