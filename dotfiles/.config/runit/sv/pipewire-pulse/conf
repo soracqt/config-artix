@@ -9,4 +9,4 @@ LOGGING_ENABLE=0
 # See: https://docs.pipewire.org/page_daemon.html#sec_logging
 LOG_LEVEL=1
 # The directory will be created for you, if logging is enabled.
-LOG_DIR="$HOME/.local/share/log/pipewire-pulse"
+LOG_DIR="$HOME/.local/state/log/pipewire-pulse"

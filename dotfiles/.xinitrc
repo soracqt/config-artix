@@ -1,6 +1,6 @@
 #!/bin/sh
 
-userresources=$HOME/.Xresources
+userresources=$XDG_CONFIG_HOME/X11/xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
@@ -50,7 +50,7 @@ fi
 
 setxkbmap -option caps:none
 xset r rate 280 40
-[ -f ~/.xprofile ] && source ~/.xprofile
+[ -f ~/.config/X11/profile ] && source ~/.config/X11/profile
 runsvdir ~/.config/runit/runsvdir &
 
 exec dbus-launch --exit-with-session i3

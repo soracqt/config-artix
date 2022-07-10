@@ -36,7 +36,7 @@
 
 
 [include]
-	path = $HOME/.gitalias
+	path = $HOME/.config/git/alias
 [commit]
 	gpgsign = true
 [gpg]
