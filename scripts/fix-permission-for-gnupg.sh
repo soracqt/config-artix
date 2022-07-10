@@ -1,4 +1,4 @@
 #!/bin/sh
 set -euo pipefail
-find ~/.gnupg -type f -exec chmod 600 {} \;
-find ~/.gnupg -type d -exec chmod 700 {} \;
+find ~/.local/share/gnupg -type f -exec chmod 600 {} \;
+find ~/.local/share/gnupg -type d -exec chmod 700 {} \;
