@@ -28,7 +28,7 @@ setopt hist_ignore_all_dups
 setopt share_history
 
 # nord-dircolors
-test -r ~/.config/dir_colors && eval $(dircolors ~/.config/dir_colors)
+test -r $ZDOTDIR/dir_colors && eval $(dircolors $ZDOTDIR/dir_colors)
 
 # chpwd
 command -v exa &>/dev/null && function chpwd() { exa }
@@ -42,7 +42,7 @@ zstyle ':completion:*' list-colors "${LS_COLORS}"
 [ -f /usr/share/doc/pkgfile/command-not-found.zsh ] && source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # alias
-[ -f ~/.config/aliasrc ] && source ~/.config/aliasrc
+[ -f $ZDOTDIR/aliasrc ] && source $ZDOTDIR/aliasrc
 
 # emacs keybind
 bindkey -e
