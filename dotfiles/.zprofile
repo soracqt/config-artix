@@ -8,7 +8,6 @@ export BAT_THEME=Nord
 export GPG_TTY=$(tty)
 
 # history
-export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=10000
 export SAVEHIST=10000
 
@@ -35,6 +34,8 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+export LESSHISTFILE="$XDG_STATE_HOME"/less/history
 
 # user path
 export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin"
