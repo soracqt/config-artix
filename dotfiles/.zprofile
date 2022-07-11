@@ -15,13 +15,6 @@ export SAVEHIST=10000
 # FZF_DEFAULT_OPTS
 export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
 
-# sway and i3wm
-if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty2" ]; then
-        exec ~/.local/bin/sway.sh
-elif [ -z $WAYLAND_DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-        startx
-fi
-
 export LC_MESSAGES=en_US.UTF-8
 export GHQ_ROOT=~/project
 
@@ -41,6 +34,14 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 
 # user path
 export PATH="$PATH:$GOPATH/bin:$HOME/.local/bin"
+
+# sway and i3wm
+if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty2" ]; then
+        exec ~/.local/bin/sway.sh
+elif [ -z $WAYLAND_DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
+        startx
+fi
