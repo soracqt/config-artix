@@ -1,0 +1,14 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = papirus-icon-theme
+
+[Action]
+Description = Setting papirus folder icon to Nord...
+When = PostTransaction
+Exec = /usr/bin/sh -c 'papirus-folders-nord -C frostblue3'
+Depends = papirus-linux-universe
+Depends = papirus-nord
+Depends = sh
+
