@@ -185,7 +185,6 @@ psensor
 pv
 pwgen
 python-pip
-python-rangehttpserver
 qalculate-gtk
 qemu-desktop
 qemu-emulators-full
