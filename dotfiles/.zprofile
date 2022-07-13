@@ -4,9 +4,6 @@ export EDITOR="nvim"
 # Nord bat
 export BAT_THEME=Nord
 
-# GPG_TTY
-export GPG_TTY=$(tty)
-
 # history
 export HISTSIZE=10000
 export SAVEHIST=10000

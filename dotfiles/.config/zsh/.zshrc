@@ -68,4 +68,4 @@ bindkey '^D' exit_zsh
 
 # fzf-keybind
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
-
+export GPG_TTY=$TTY
