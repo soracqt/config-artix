@@ -41,3 +41,9 @@ rustup install stable; chsh -s /bin/zsh; sudo sh -c 'usbguard generate-policy -P
 ```bash
 killall firefox; rm -rf ~/.mozilla ~/.cache/*; cp -r dotfiles/.mozilla ~
 ```
+
+# SKK edict
+
+```bash
+curl -L 'https://raw.github.com/skk-dev/dict/master/SKK-JISYO.edict' -o ~/.local/share/fcitx5/skk/SKK-JISYO.edict
+```
