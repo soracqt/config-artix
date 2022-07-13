@@ -166,6 +166,7 @@ pandoc-bin
 papirus-icon-theme
 papirus-linux-universe
 papirus-nord
+partitionmanager
 paru-bin
 paruz
 pavucontrol
