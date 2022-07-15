@@ -42,3 +42,5 @@ user_pref("network.http.referer.spoofSource", true);
 user_pref("ui.context_menus.after_mouseup", true);
 // https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration
 user_pref(" media.navigator.mediadatadecoder_vpx_enabled", true);
+// Enable webgl
+user_pref("webgl.disabled", false);
