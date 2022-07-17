@@ -80,6 +80,7 @@ gnome-keyring
 gnome-system-monitor
 go
 gparted
+grex
 grim
 grub
 gtk-engine-murrine
