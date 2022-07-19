@@ -119,8 +119,8 @@ libva-utils
 libvirt-runit
 libvncserver
 light
+linux
 linux-firmware
-linux-lts
 lolcat
 longcat
 lostfiles
