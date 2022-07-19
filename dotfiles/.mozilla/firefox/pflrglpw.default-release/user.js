@@ -1399,3 +1399,5 @@ user_pref("ui.context_menus.after_mouseup", true);
 user_pref(" media.navigator.mediadatadecoder_vpx_enabled", true);
 // Enable webgl
 user_pref("webgl.disabled", false);
+// https://www.quad9.net/news/blog/doh-with-quad9-dns-servers/
+user_pref("network.trr.bootstrapAddress", "9.9.9.9");
