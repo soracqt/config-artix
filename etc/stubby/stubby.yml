@@ -132,7 +132,7 @@ listen_addresses:
 # stubby is not able to fetch and validate the DNSSEC trust-anchor itself,
 # (using Zero configuration DNSSEC) stubby will not return answers at all.
 # If DNSSEC validation is required, a trust-anchor is also required.
-# dnssec: GETDNS_EXTENSION_TRUE
+dnssec: GETDNS_EXTENSION_TRUE
 
 # Stubby tries to fetch and validate the DNSSEC root trust anchor on the fly
 # when needed (Zero configuration DNSSEC), but only if it can store then
