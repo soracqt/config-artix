@@ -42,3 +42,4 @@ alias du='dua'
 alias lg='lazygit'
 alias chattr='chattr -V'
 alias svu='SVDIR=~/.config/runit/sv sv'
+function mkcd(){mkdir $1 && cd $_}
