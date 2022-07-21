@@ -106,7 +106,6 @@ jquake
 kakoune
 kdeconnect
 keepassxc
-keepmenu-git
 kid3
 kvantum
 kvantum-theme-nordic-git
