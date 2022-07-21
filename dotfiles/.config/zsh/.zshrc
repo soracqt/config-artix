@@ -68,4 +68,6 @@ bindkey '^D' exit_zsh
 
 # fzf-keybind
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+
+# Use pinentry-curses in gpg
 export GPG_TTY=$TTY
