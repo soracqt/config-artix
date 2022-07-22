@@ -7,3 +7,6 @@
 [submodule "dotfiles/.local/share/tmux/themes/nord-tmux"]
 	path = dotfiles/.local/share/tmux/themes/nord-tmux
 	url = https://github.com/arcticicestudio/nord-tmux
+[submodule "dotfiles/.local/share/gh/extensions/gh-fzgist"]
+	path = dotfiles/.local/share/gh/extensions/gh-fzgist
+	url = https://github.com/Omochice/gh-fzgist
