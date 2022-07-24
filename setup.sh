@@ -2,6 +2,8 @@
 set -euo pipefail
 sudo cp -r etc/ /
 sudo cp -r usr/ /
+sudo cp -r var/spool/cron/takumi /var/spool/cron/takumi
+sudo chown takumi:takumi /var/spool/cron/takumi
 rsync -av dotfiles/. ~
 echo -e 'tmpfs   /tmp         tmpfs   rw,nodev,nosuid,size=4G          0  0
 tmpfs   /home/takumi/.cache      tmpfs   noatime,nodev,nosuid,size=2G  0       0'|sudo tee -a /etc/fstab

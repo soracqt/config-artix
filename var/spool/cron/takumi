@@ -1,0 +1,1 @@
+@hourly /usr/bin/profile-sync-daemon resync >/dev/null 2>&1
