@@ -1,4 +1,4 @@
 #!/bin/sh
 
-profile-sync-daemon startup
-exec chpst -b psd pause
+profile-sync-daemon sync
+exec chpst -b profile-sync-daemon pause
