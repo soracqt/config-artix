@@ -20,3 +20,4 @@ sudo rsv enable virtlogd
 sudo rsv enable thermald
 sudo rsv enable cpupower
 sudo rsv enable stubby
+sudo rsv enable cronie
