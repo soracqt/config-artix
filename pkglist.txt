@@ -26,6 +26,8 @@ chrony
 chrony-runit
 cnijfilter2-mg3600
 cpupower
+cronie
+cronie-runit
 cryptsetup
 cups
 cups-runit
@@ -35,6 +37,7 @@ dnsmasq
 docker
 docker-compose
 docker-runit
+docker-scan
 dog
 downgrade
 dua-cli
@@ -186,6 +189,7 @@ psensor
 pv
 pwgen
 python-pip
+python-pycryptodomex
 qalculate-gtk
 qemu-desktop
 qemu-emulators-full
