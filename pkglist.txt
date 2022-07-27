@@ -179,6 +179,7 @@ picom
 pigz
 pipewire-alsa
 pipewire-pulse
+pipr-bin
 playerctl
 polkit-gnome
 powertop
