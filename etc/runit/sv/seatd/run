@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+sv start dbus >/dev/null
+
+exec /usr/bin/seatd -g seat 2>&1 > /dev/tty6
