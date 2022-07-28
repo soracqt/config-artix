@@ -211,7 +211,6 @@ screenfetch
 scrot
 seahorse
 seatd
-seatd-runit
 shellcheck
 signal-desktop
 sl
